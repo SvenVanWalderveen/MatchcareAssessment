@@ -31,50 +31,50 @@
             
             
             <!--Player 1 elements-->
-            <Border Name="borderPlayer1Pit0" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="6" MouseLeftButtonUp="Event_Click_Play">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="6">
+                <Label Name="lblPlayer1Pit0" AutomationProperties.AutomationId="lblPlayer1Pit0" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play"/>
             </Border>
-            <Border Name="borderPlayer1Pit1" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="5" MouseLeftButtonUp="Event_Click_Play">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="5">
+                <Label Name="lblPlayer1Pit1" AutomationProperties.AutomationId="lblPlayer1Pit1" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play"/>
             </Border>
-            <Border Name="borderPlayer1Pit2" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="4" MouseLeftButtonUp="Event_Click_Play">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="4">
+                <Label Name="lblPlayer1Pit2" AutomationProperties.AutomationId="lblPlayer1Pit2" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play"/>
             </Border>
-            <Border Name="borderPlayer1Pit3" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="3" MouseLeftButtonUp="Event_Click_Play">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="3">
+                <Label Name="lblPlayer1Pit3" AutomationProperties.AutomationId="lblPlayer1Pit3" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play"/>
             </Border>
-            <Border Name="borderPlayer1Pit4" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="2" MouseLeftButtonUp="Event_Click_Play">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="2">
+                <Label Name="lblPlayer1Pit4" AutomationProperties.AutomationId="lblPlayer1Pit4" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play"/>
             </Border>
-            <Border Name="borderPlayer1Pit5" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="1" MouseLeftButtonUp="Event_Click_Play">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="0" Grid.Column="1">
+                <Label Name="lblPlayer1Pit5" AutomationProperties.AutomationId="lblPlayer1Pit5" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play"/>
             </Border>
 
-            <Border Name="borderPlayer1Pit6" BorderThickness="3" BorderBrush="Gray" Margin="10 25 10 125" CornerRadius="80" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25 10 125" CornerRadius="80" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3">
+                <Label Name="lblPlayer1Pit6" AutomationProperties.AutomationId="lblPlayer1Pit6" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
             </Border>
 
             <!--Player 2 elements-->
-            <Border Name="borderPlayer2Pit0" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="1" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="1" >
+                <Label Name="lblPlayer2Pit0" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False"/>
             </Border>
-            <Border Name="borderPlayer2Pit1" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="2" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="2">
+                <Label Name="lblPlayer2Pit1" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False"/>
             </Border>
-            <Border Name="borderPlayer2Pit2" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="3" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="3">
+                <Label Name="lblPlayer2Pit2" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False"/>
             </Border>
-            <Border Name="borderPlayer2Pit3" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="4" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="4">
+                <Label Name="lblPlayer2Pit3" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False"/>
             </Border>
-            <Border Name="borderPlayer2Pit4" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="5" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="5">
+                <Label Name="lblPlayer2Pit4" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False"/>
             </Border>
-            <Border Name="borderPlayer2Pit5" BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="6" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 25" CornerRadius="100" Grid.Row="2" Grid.Column="6">
+                <Label Name="lblPlayer2Pit5" Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60" MouseLeftButtonUp="Event_Click_Play" IsEnabled="False"/>
             </Border>
-            <Border Name="borderPlayer2Pit6" BorderThickness="3" BorderBrush="Gray" Margin="10 -100 10 25" CornerRadius="80" Grid.Row="2" Grid.Column="7" Grid.RowSpan="3">
-                <Label Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
+            <Border BorderThickness="3" BorderBrush="Gray" Margin="10 -100 10 25" CornerRadius="80" Grid.Row="2" Grid.Column="7" Grid.RowSpan="3">
+                <Label Name="lblPlayer2Pit6"  Content="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="60"/>
             </Border>
         </Grid>
 

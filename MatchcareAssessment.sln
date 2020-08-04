@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamburingaUI", "SamburingaUI\SamburingaUI.csproj", "{F2AD5BF0-5F83-4DF3-AE44-3AD9254145C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamburingaUI", "SamburingaUI\SamburingaUI.csproj", "{F2AD5BF0-5F83-4DF3-AE44-3AD9254145C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamburingaBackend", "SamburingaBackend\SamburingaBackend.csproj", "{D9E55F13-E401-420A-9F0D-BDA99AC2A97D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamburingaBackend", "SamburingaBackend\SamburingaBackend.csproj", "{D9E55F13-E401-420A-9F0D-BDA99AC2A97D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamburingaUITestNetCore", "SamburingaUITestNetCore\SamburingaUITestNetCore.csproj", "{03E49CD9-EB7C-44D8-A2FB-6C6DF4755EA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D9E55F13-E401-420A-9F0D-BDA99AC2A97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9E55F13-E401-420A-9F0D-BDA99AC2A97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9E55F13-E401-420A-9F0D-BDA99AC2A97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E49CD9-EB7C-44D8-A2FB-6C6DF4755EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E49CD9-EB7C-44D8-A2FB-6C6DF4755EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E49CD9-EB7C-44D8-A2FB-6C6DF4755EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E49CD9-EB7C-44D8-A2FB-6C6DF4755EA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

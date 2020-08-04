@@ -5,14 +5,16 @@ using System.Text;
 
 namespace SamburingaBackend.Models
 {
+    //Board with two players.
     public class Board
     {
-        public Player CurrentPlayer { get; set; }
-        public Player Player1 { get; set; }
+        public Player CurrentPlayer { get; set; }       //Local variable to store current player
+        public Player Player1 { get; set; }  
         public Player Player2 { get; set; }
 
         public Board()
         {
+            //Initiate players and set current player to player 1.
             Player1 = new Player();
             Player2 = new Player();
             CurrentPlayer = Player1;
@@ -38,7 +40,7 @@ namespace SamburingaBackend.Models
 
         public int Play(int pitNumber)
         {
-            //For UI return integer to know if player has captured stones or last stone on Samburinga
+            //For UI return integer to know if player has captured stones or last stone has landed on Samburinga
             BoardPit pit = CurrentPlayer.PlayerPits.ElementAt(pitNumber);
             int numberOfStones = pit.NumberOfStones;
             pit.ClearStones();      //Clear current pit

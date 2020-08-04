@@ -6,6 +6,7 @@ using System.Text;
 
 namespace SamburingaBackend
 {
+    //Adapter class is for external projects to talk to. 
     public class SamburingaAdapter
     {
         public void InitializeNewGame()

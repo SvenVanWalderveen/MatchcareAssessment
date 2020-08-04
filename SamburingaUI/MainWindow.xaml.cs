@@ -21,7 +21,7 @@ namespace SamburingaUI
     /// </summary>
     public partial class MainWindow : Window
     {
-        SamburingaAdapter adapter = new SamburingaAdapter();
+        readonly SamburingaAdapter adapter = new SamburingaAdapter();
         public List<Label> player1Elements = new List<Label>();
         public List<Label> player2Elements = new List<Label>();
         public MainWindow()

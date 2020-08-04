@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamburingaUI", "SamburingaUI\SamburingaUI.csproj", "{F2AD5BF0-5F83-4DF3-AE44-3AD9254145C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamburingaBackend", "SamburingaBackend\SamburingaBackend.csproj", "{D9E55F13-E401-420A-9F0D-BDA99AC2A97D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2AD5BF0-5F83-4DF3-AE44-3AD9254145C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AD5BF0-5F83-4DF3-AE44-3AD9254145C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AD5BF0-5F83-4DF3-AE44-3AD9254145C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AD5BF0-5F83-4DF3-AE44-3AD9254145C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E55F13-E401-420A-9F0D-BDA99AC2A97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E55F13-E401-420A-9F0D-BDA99AC2A97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E55F13-E401-420A-9F0D-BDA99AC2A97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E55F13-E401-420A-9F0D-BDA99AC2A97D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CED1FA28-C5C3-4701-A0E9-2E39AF0F9D93}
+	EndGlobalSection
+EndGlobal
